@@ -62,14 +62,14 @@ Quizzes are dynamically generated and provide immediate feedback, enhancing the 
 
    ```bash
    cd TeachU
-
+   ```
 3. **Database Setup**
 
 Create a MySQL database named labwork.
 Import the labwork.sql file located in the project root to set up necessary tables.
    ```sql
     mysql -u yourusername -p labwork < labwork.sql
-
+   ```
 4. **Configure Database Connection**
 
 Update connect.php with your database credentials.
@@ -84,9 +84,9 @@ Update connect.php with your database credentials.
 
    // Check connection
    if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+      die("Connection failed: " . $conn->connect_error);
    }
-
+   ```
 5. **Run the Application**
 
 Place the project directory in the htdocs folder of your local server (for XAMPP, this is usually C:/xampp/htdocs/).
