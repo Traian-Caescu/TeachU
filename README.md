@@ -68,7 +68,7 @@ Quizzes are dynamically generated and provide immediate feedback, enhancing the 
 Create a MySQL database named labwork.
 Import the labwork.sql file located in the project root to set up necessary tables.
    ```sql
-   mysql -u yourusername -p labwork < labwork.sql
+    mysql -u yourusername -p labwork < labwork.sql
 
 4. **Configure Database Connection**
 
