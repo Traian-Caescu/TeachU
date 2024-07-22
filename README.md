@@ -60,23 +60,20 @@ Quizzes are dynamically generated and provide immediate feedback, enhancing the 
    
 2. **Navigate to the Project Directory**
 
-bash
-Copy code
+```bash
 cd TeachU
 
 3. **Database Setup**
 
 Create a MySQL database named labwork.
 Import the labwork.sql file located in the project root to set up necessary tables.
-sql
-Copy code
+```sql
 mysql -u yourusername -p labwork < labwork.sql
 
 4. **Configure Database Connection**
 
 Update connect.php with your database credentials.
-php
-Copy code
+```php
 $servername = "your_server_name";
 $username = "your_database_username";
 $password = "your_database_password";
