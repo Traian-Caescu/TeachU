@@ -12,7 +12,7 @@ TeachU is an advanced web application built to facilitate remote learning for bo
 - **Mathematics**
 - **English**
 - **Computing**
-
+ 
 Each module provides a range of resources tailored to the specific subject, ensuring a rich learning environment.
 
 ### Interactive Quizzes
